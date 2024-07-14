@@ -1,0 +1,16 @@
+{
+    "name": "pro",
+    "version": "1.0.0",
+    "description": "Projects Lib",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build"
+    },
+    "dependencies": {
+        "vue": "^3.4.0",
+        "vue-router": "^4.0.0"
+    },
+    "devDependencies": {
+        "@vue/cli-service": "^5.0.0"
+    }
+}
