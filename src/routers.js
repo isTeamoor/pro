@@ -2,19 +2,19 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
-    name: "home",
+    name: "test",
+    path: "/test",
+    component: () => import("./components/Screens/tests.vue"),
+  },
+  {
+    name: "home-ice",
     path: "/",
-    component: () => import("./components/Screens/home.vue"),
+    component: () => import("./components/Screens/home-ice.vue"),
   },
   {
-    name: "check1",
-    path: "/check1",
-    component: () => import("./components/Screens/check1.vue"),
-  },
-  {
-    name: "check2",
-    path: "/check2",
-    component: () => import("./components/Screens/check2.vue"),
+    name: "dailyMenu-ice",
+    path: "/dailyMenu-ice",
+    component: () => import("./components/Screens/dailyMenu-ice.vue"),
   },
 ];
 

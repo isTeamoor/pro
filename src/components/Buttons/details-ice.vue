@@ -1,5 +1,5 @@
 <template>
-    <button @click="handleClick">
+    <button>
         <span class="slot">
             <slot></slot>
         </span>
@@ -8,25 +8,14 @@
 
 <script>
 export default {
-    name: 'button-first',
-    props: {
-        routerPath: {
-            type: String,
-            required: true
-        }
-    },
-    methods: {
-        handleClick() {
-            this.$router.push(this.routerPath)
-        }
-    }
+    name: 'button-details-ice',
 }
 </script>
 
 <style scoped>
 .slot {
-    color: gray;
-    font-size: large;
+    color: white;
+    font-size: 1em;
     padding: 20px;
 }
 
@@ -40,6 +29,6 @@ button {
     text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
     font-size: 125%;
     line-height: 1.5;
-    background-color: #c00;
+    background-color:rgb(57, 11, 164);
 }
 </style>
